@@ -8,7 +8,7 @@ The purpose of this project is to analyze how many employees working for Pewlett
 
 - ## Data Provided
 
-The data provided about the employees as Pewlett_Hackard included three tables that contained information about the employees as outined below:
+The data provided about the employees as Pewlett_Hackard included three tables that contained information about the employees as outlined below:
 
 [[employees.csv]](Data/employees.csv) -- employee #, birth date, first name, last name, gender, hire date
 
@@ -47,8 +47,8 @@ A total of 90,398 positions will eventually be vacated once the "silver tsunami"
 
 - ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-Unfortunately, those  who were identified as eligible for the mentorship program only numbered up to 1,549, a small fraction of the 90,398 who may become part of the "silver tsunami". It may be recommended to expand the criteria for mentorship eligibility to include all those who were born on Dec. 31, 1965 and earlier. The upcoming retirees themselves may prove to be good mentors to their younger coworkers before they depart.
+Unfortunately, those who were identified as eligible for the mentorship program only numbered up to 1,549, a small fraction of the 90,398 who may become part of the "silver tsunami". It may be recommended to expand the criteria for mentorship eligibility to include all those who were born on Dec. 31, 1965 and earlier. The upcoming retirees themselves may prove to be good mentors to their younger coworkers before they depart.
 
 [(Number of Eligible Mentors by Title)](Data/mentor_count.csv)
 
-[(Total Eligible Retirees and Mentors)]()
+[(Total Eligible Retirees and Mentors)](Data/total_retirees_and_mentors.png)
