@@ -47,4 +47,8 @@ A total of 90,398 positions will eventually be vacated once the "silver tsunami"
 
 - ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-Unfortunately, those  who were identified as eligible for the mentorship program only numbered up to 1549 [[Link to Table]](Data/mentor_count.csv), a small fraction of the 90,398 who may become part of the "silver tsunami". It may be recommended to expand the criteria for mentorship eligibility to include all those who were born on Dec. 31, 1965 and earlier. The upcoming retirees themselves may prove to be good mentors to their younger coworkers before they depart.
+Unfortunately, those  who were identified as eligible for the mentorship program only numbered up to 1,549, a small fraction of the 90,398 who may become part of the "silver tsunami". It may be recommended to expand the criteria for mentorship eligibility to include all those who were born on Dec. 31, 1965 and earlier. The upcoming retirees themselves may prove to be good mentors to their younger coworkers before they depart.
+
+[(Number of Eligible Mentors by Title)](Data/mentor_count.csv)
+
+[(Total Eligible Retirees and Mentors)]()

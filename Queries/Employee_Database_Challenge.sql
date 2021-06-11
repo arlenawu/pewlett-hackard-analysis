@@ -58,11 +58,6 @@ SELECT * FROM retiring_titles;
 -- example table didn't. My table still has all the same employees, but probably 
 -- with more up to date titles.
 
-----------------------------------------------------------------
--- Counting total number of retiring employees
-SELECT COUNT(emp_no)
-FROM unique_titles;
-
 
 -- DELIVERABLE 2 ------------------------------------------------
 DROP TABLE IF EXISTS mentorship_eligibilty;
@@ -87,7 +82,9 @@ ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibilty;
 
-----------------------------------------------------------------
+
+
+-- EXTRAS ------------------------------------------------------
 DROP TABLE IF EXISTS mentor_count;
 
 -- Get number of potential mentors by title
@@ -98,3 +95,11 @@ GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 
 SELECT * FROM mentor_count;
+----------------------------------------------------------------
+-- Counting total number of retiring employees
+SELECT COUNT(emp_no) as total_retiring_employees
+FROM unique_titles;
+----------------------------------------------------------------
+-- Counting total number of potential mentors
+SELECT count(emp_no) total_potential_mentors
+FROM mentorship_eligibilty;
