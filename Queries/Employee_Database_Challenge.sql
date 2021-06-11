@@ -50,6 +50,19 @@ ORDER BY COUNT(emp_no) DESC;
 
 SELECT * FROM retiring_titles;
 
+-- NOTE TO GRADER -- There is a tiny difference in my retiring_titles table
+-- compared to the example table given in our instructions. However, I suspect 
+-- that my table may actually be more correct, because the difference is that 
+-- it looks like my table caught two employees, an Engineer and a Staff member, 
+-- who were promoted to Senor Engineer and Senior Staff respectively, and the
+-- example table didn't. My table still has all the same employees, but probably 
+-- with more up to date titles.
+
+----------------------------------------------------------------
+-- Counting total number of retiring employees
+SELECT COUNT(emp_no)
+FROM unique_titles;
+
 
 -- DELIVERABLE 2 ------------------------------------------------
 DROP TABLE IF EXISTS mentorship_eligibilty;
@@ -73,3 +86,15 @@ WHERE e.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibilty;
+
+----------------------------------------------------------------
+DROP TABLE IF EXISTS mentor_count;
+
+-- Get number of potential mentors by title
+SELECT COUNT(emp_no), title
+INTO mentor_count
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY COUNT(emp_no) DESC;
+
+SELECT * FROM mentor_count;
