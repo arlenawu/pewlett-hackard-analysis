@@ -1,11 +1,12 @@
 SELECT * FROM employees;
 SELECT * FROM titles;
+SELECT * FROM dept_emp;
 
 -- DELIVERABLE 1 ------------------------------------------------
 
 DROP TABLE IF EXISTS retirement_titles;
 
--- Identify employees eligible for retirement
+-- Identify employees at retirement age
 -- all employees born between 1952 and 1955
 SELECT e.emp_no,
 e.first_name,
